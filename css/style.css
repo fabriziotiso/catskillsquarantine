@@ -1,0 +1,63 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+    margin: 0 auto;
+    background: #FFF;
+    font-family: 'Open Sans', arial, sans-serif;
+    color: rgb(86, 90, 92);
+    text-align: center;
+}
+
+
+.container {
+
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 50px 0 50px 0;
+}
+
+div.title {
+  margin: 50px 0 50px 0;
+}
+
+/***********************************************************************
+ *  Recipes Grid
+ **********************************************************************/
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 400px));
+    grid-gap: 20px;
+}
+
+.box {
+}
+
+.box > img {
+    width: 100%;
+}
+
+.btn-primary {
+  background-color: gray;
+  border-color: gray;
+}
+
+
+/*
+ * Adjustments over 900px
+*/
+
+@media only screen and (min-width: 900px) {
+}
